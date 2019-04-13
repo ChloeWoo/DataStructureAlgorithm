@@ -94,8 +94,7 @@ class GFG
         tree.root.left.left = new Node(4); 
         tree.root.left.right = new Node(5); 
 
-        Console.WriteLine("Level order traversal " +  
-                              "of binary tree is "); 
+        Console.WriteLine("Level order traversal " + "of binary tree is "); 
         tree.printLevelOrder(); 
     } 
 } 
