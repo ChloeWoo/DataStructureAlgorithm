@@ -67,8 +67,7 @@ class GFG
     } 
       
     /* Print nodes at the given level */
-    public virtual void printGivenLevel(Node root,  
-                                        int level) 
+    public virtual void printGivenLevel(Node root, int level) 
     { 
         if (root == null) 
         { 
@@ -85,19 +84,19 @@ class GFG
         } 
     } 
   
-// Driver Code 
-public static void Main(string[] args) 
-{ 
-    GFG tree = new GFG(); 
-    tree.root = new Node(1); 
-    tree.root.left = new Node(2); 
-    tree.root.right = new Node(3); 
-    tree.root.left.left = new Node(4); 
-    tree.root.left.right = new Node(5); 
-      
-    Console.WriteLine("Level order traversal " +  
-                          "of binary tree is "); 
-    tree.printLevelOrder(); 
-} 
+    // Driver Code 
+    public static void Main(string[] args) 
+    { 
+        GFG tree = new GFG(); 
+        tree.root = new Node(1); 
+        tree.root.left = new Node(2); 
+        tree.root.right = new Node(3); 
+        tree.root.left.left = new Node(4); 
+        tree.root.left.right = new Node(5); 
+
+        Console.WriteLine("Level order traversal " +  
+                              "of binary tree is "); 
+        tree.printLevelOrder(); 
+    } 
 } 
   
